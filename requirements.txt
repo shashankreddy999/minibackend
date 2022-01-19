@@ -8,3 +8,13 @@ numpy==1.19.5
 pandas==1.2.4
 pandas-stubs==1.1.0.12
 Pillow==8.3.1
+scikit-learn==1.0.1
+scipy==1.7.2
+sklearn==0.0
+tensorboard==2.7.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.0
+tensorflow==2.7.0
+tensorflow-estimator==2.7.0
+tensorflow-io-gcs-filesystem==0.21.0
+tensorflow-probability==0.13.0
