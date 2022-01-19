@@ -13,7 +13,7 @@ def hello():
     if request.method == 'POST':
         uploaded_file = request.files
         print(uploaded_file['data'].save(uploaded_file['data'].filename))
-        vgg_model=tf.keras.models.load_model("./vgg_model_brain.h5")
+        vgg_model=tf.keras.models.load_model("vgg_model_brain.h5")
         arr=np.asarray(open(uploaded_file['data'].filename).resize((224,224)))
         brain_img=arr.astype(np.float32)
         img_array=tf.keras.preprocessing.image.img_to_array(brain_img)
